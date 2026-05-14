@@ -2,15 +2,14 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 32px;
 }
 
-ul{
+nav ul{
     display: flex;
     list-style: none;
     padding-block: 8px;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 ul li a:last-child img{
