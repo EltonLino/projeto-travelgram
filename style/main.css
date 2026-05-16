@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 24px;
+    gap: 24px;
+}
+
+main img{
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+}
