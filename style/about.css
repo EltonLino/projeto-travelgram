@@ -1,0 +1,39 @@
+#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: var(--font-md);
+  padding-block: 32px;
+}
+
+.main {
+  display: flex;
+  max-width: 635px;
+  gap: 32px;
+}
+
+.main h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+.info {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.info ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
